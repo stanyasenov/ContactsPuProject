@@ -69,7 +69,7 @@ public class UpdateActivity extends AppCompatActivity {
             name_input.setText(name);
             number_input.setText(number);
             description_input.setText(description);
-            Log.d("angel", name+" "+number+" "+ description);
+            Log.d("test", name+" "+number+" "+ description);
         }else{
             Toast.makeText(this, "No data.", Toast.LENGTH_SHORT).show();
         }
